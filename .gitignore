@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Next.js Build Output
+.next/
+out/
+build/
+dist/
+
+# SQLite Database & Local Data Stores
+*.db
+*.sqlite
+*.sqlite3
+backend/finhub.db
+
+# Machine Learning Large Binary Store (Trained on startup if missing)
+backend/models_store/*.joblib
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
